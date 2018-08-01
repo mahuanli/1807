@@ -37,7 +37,7 @@ def gai():
 def shan():
 		name = input("请输入你要删除的名字")
 		flag = False
-		for position,i in enmerate(list):#把索引遍历出来
+		for position,i in enumerate(list):#把索引遍历出来
 	
 			if i["name"] == name:
 				flag = True#找到了
